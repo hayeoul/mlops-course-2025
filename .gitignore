@@ -218,3 +218,22 @@ config.ini
 venv/
 _pycache_/
 *.pyc
+# MLOps specific
+
+data/raw/*
+
+!data/raw/.gitkeep
+
+*.pkl
+
+*.joblib
+
+.env
+
+config.ini
+
+
+# AWS credentials
+
+.aws/
+
